@@ -82,7 +82,7 @@ export default function LoginPage() {
           {loading ? "Logging in..." : "Login"}
         </button>
 
-        <p className="text-center text-gray-600 mt-6">
+        {/* <p className="text-center text-gray-600 mt-6">
           Don’t have an account?{" "}
           <a
             href="/signup"
@@ -90,7 +90,7 @@ export default function LoginPage() {
           >
             Sign up
           </a>
-        </p>
+        </p> */}
       </form>
     </div>
   );
